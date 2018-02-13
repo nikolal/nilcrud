@@ -1,7 +1,7 @@
 # Custom types definition
 
 Postgrex.Types.define(
-  NilCrud.PostgresTypes,
+  NilCrud.PostgrexTypes,
   [] ++ Ecto.Adapters.Postgres.extensions(),
   json: Jason
 )
